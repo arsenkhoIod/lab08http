@@ -21,4 +21,4 @@ class suggester_client {
                      std::ostream& out);
 };
 
-#endif  // INCLUDE_HEADER_HPP_
+#endif  // INCLUDE_SUGGESTER_HEADER_HPP_
