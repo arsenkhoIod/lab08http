@@ -15,7 +15,6 @@ std::string suggester_client::request() {
   return req.dump();
 }
 
-
 void suggester_client::parse_suggest(const std::string& response_json,
                                      std::ostream& out) {
   nlohmann::json res;
